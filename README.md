@@ -89,11 +89,17 @@ import `./User.css`
 
 function User(props) {
 return(
+
 <div className “user-card”>
+
 <div className “user-name”>This is {props.name}.</div>
+
 <div className “user-age”>{props.name} is {props.age} years old.</div>
+
 <div className “user-city”>{props.name} lives in {props.city}. </div>
+
 </div>
+
 )
 
 }
