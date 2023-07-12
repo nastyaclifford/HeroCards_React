@@ -102,5 +102,5 @@ return(
 )
 
 }
-export default User;</div>
+export default User;</div>   
 
