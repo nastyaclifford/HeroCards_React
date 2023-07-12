@@ -98,9 +98,9 @@ return(
 
 <div className “user-city”>{props.name} lives in {props.city}. </div>
 
-</div>
 
 )
 
 }
-export default User;
+export default User;</div>
+
