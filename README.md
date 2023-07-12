@@ -1,7 +1,7 @@
 # Week22_React
 Hometask, React Week 22, JSX, Props, Functional components
 
-#Вопросы 
+# Вопросы 
 1.Что такое props и можно ли использовать props в функциональных компонентах?
 
 Props позволяют нам добавлять свойства к компонентам React. Мы можем использовать их как с классовыми, так и с функциональными компонентами.
@@ -50,7 +50,7 @@ Block - самый глубокий
 С помощью функции map(), которая будет применяться к каждому элементу массива.
 
 
-# File App.js:
+## File App.js:
 
 
 Import `./App.css`;
@@ -75,7 +75,7 @@ users.map(user => (
 export default App;
 
 
-# file User.jsx:
+## file User.jsx:
 
 import `./User.css`
 
