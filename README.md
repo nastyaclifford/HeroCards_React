@@ -59,19 +59,27 @@ Import User from `./components/User`;
 
 const users = [
 {name: “Leia”, age: 25, city: “Toronto”},
+
 {name: “Kylo”, age: 27, city: “Ottawa”},
+
 {name: “Ben”, age: 28, city: “Montreal”},
+
 {name: “Luke”, age: 25, city: “Edmonton”}]
 
 
 function App(){
+
  return(
+
    <React.Fragment>
+
 users.map(user => (
 <User name={user.name} age={user.age} city={user.city}</User>
-))
+))</React.Fragment>
+
 )
 }
+
 export default App;
 
 
