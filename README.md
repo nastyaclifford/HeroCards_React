@@ -52,11 +52,6 @@ Block - самый глубокий
 
 ## File App.js:
 
-
-Import `./App.css`;
-Import `./components/User.css`;
-Import User from `./components/User`;
-
 const users = [
 {name: “Leia”, age: 25, city: “Toronto”},
 
@@ -85,7 +80,6 @@ export default App;
 
 ## file User.jsx:
 
-import `./User.css`
 
 function User(props) {
 return(
