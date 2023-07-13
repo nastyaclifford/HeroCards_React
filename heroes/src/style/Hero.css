@@ -1,0 +1,23 @@
+.list_item{
+    margin: 1rem;
+    padding: 1rem;
+    border: thick double orangered;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .item_name{
+       font-size: larger;
+       font-weight: 600;
+       margin-bottom: 0.6rem;
+    }
+    .item_image{
+        max-width: 300px;
+        margin-left: auto;
+        margin-right:auto;
+        height: 200px;
+    }
+    .item_info{
+        font-style: italic;
+        font-size: smaller;
+        
+    }
