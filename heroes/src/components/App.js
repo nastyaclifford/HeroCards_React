@@ -123,7 +123,7 @@ function App() {
           superpowers={hero.superpowers}
           url={hero.url}
           info={hero.info}
-        ></Hero>
+        />
       ))}
     </div>
   );
